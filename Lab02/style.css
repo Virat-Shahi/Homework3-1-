@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Loved+by+the+King&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Loved+by+the+King&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Silkscreen:wght@400;700&display=swap');
+
+
+body {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9061320328912815) 0%, rgba(0, 0, 0, 0) 100%), url(https://tinder.com/static/build/ac062d1b428513b9c13d11026d330e34.webp);
+    background-repeat: no-repeat;
+}
+
+.container {
+    border: 1px solid black
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 12px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    top: 7px;
+    left: 20px
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-size: 22px;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: right;
+}
+
+.login .lang {
+    font-size: 24px;
+    color: white;
+    position: relative;
+    right: 160px;
+    bottom: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.log {
+    position: absolute;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    top: 29px;
+    right: 20px;
+    font-family: "Roboto Slab", serif;
+}
+
+.swipe {
+    margin: 200px auto;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: "Noto Serif", serif;
+    color: white;
+}
+
+.acc {
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: -150px;
+    right: 510px;
+    border-radius: 50px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(244, 144, 140);
+    font-family: "Noto Serif", serif;
+    font-size: 21px;
+    font-family: "Kanit", sans-serif;
+}
+
+.acc:hover {
+    background-color: rgb(232, 171, 171);
+    color: white;
+}
+
+.log:hover {
+    background-color: rgb(229, 130, 130);
+    color: black;
+}
+
+select {
+    position: relative;
+    right: 200px;
+    bottom: 26px;
+    font-size: 24px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+}
